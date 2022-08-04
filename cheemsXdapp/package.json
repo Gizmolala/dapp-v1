@@ -1,0 +1,25 @@
+{
+  "name": "cheemsxdapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "moralis": "moralis-admin-cli watch-cloud-folder --autoSave 0 --moralisCloudfolder cloudFunctions"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.2",
+    "moralis": "^1.7.0",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-moralis": "^1.3.5"
+  },
+  "devDependencies": {
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
